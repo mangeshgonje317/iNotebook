@@ -9,7 +9,7 @@ function Signup(props) {
   const handelSubmit=async (e)=>{
         e.preventDefault();
         const {name ,email,password,cpassword} = credentials;
-         const response =await fetch("https://notes-api-inotebooks-projects-52e1ddcc.vercel.app//api/auth/createuser",{
+         const response =await fetch("https://notes-api-inotebooks-projects-52e1ddcc.vercel.app/api/auth/createuser",{
           
         method: 'POST',
         headers: {
